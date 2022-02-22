@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode'
+    , 'Lucida Grande', 'Lucida Sans'
+    , Arial, sans-serif;;
+    text-align: center;
+    font-size: 2rem;
+    background-color:green ;
+    background: url("img/back.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1{
+    color:goldenrod;
+    font-size: 2em;
+}
+
+#message-el{
+font-style: italic;
+padding-bottom: 1em;
+}
+
+.container{
+    display: grid;
+    grid-template-rows:1fr 1fr;
+}
+
+.startGame{
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    color: white;
+    background-image: linear-gradient(to right, #c02425, #f0cb35);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    width:40%;
+    margin: 0.3em auto;
+
+}
+
+.startGame:hover{
+    background: rgb(81, 0, 128);
+}
+
